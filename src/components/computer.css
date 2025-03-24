@@ -1,0 +1,156 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    width: 100%;
+}
+
+.full-height {
+    height: 100vh; 
+}
+
+.c1 {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: 100%; 
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.c2 {
+    display:flex;
+    flex-direction: row;
+    gap:90%;
+    justify-content: left;
+    height: 5%;
+  
+}
+.c2 .icon1 {
+    height:100%;
+    width:100%;
+}
+.c2 .icon2{
+    height:100%;
+    width:100%;
+}
+.c3_2{
+    font-size: 200% ;
+    color:red;
+    margin-top: 1.5%;
+    width:70%;
+    display:flex;
+    justify-content:center;
+}
+.c3{
+    margin-left:35%;
+    height:10%;
+    width:30%;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:5%;
+}
+.c3_comp{
+    margin-left:35%;
+    height:10%;
+    width:30%;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:5%;
+}
+.c3_1{
+    width:25%;
+}
+.c3_1 .icon3{
+    color:red;
+    width:70%;
+    height:70%;
+    
+    
+}
+
+
+.c4{
+    height:75%;
+    overflow:hidden;
+}
+.c4 table{
+    width:100%;
+    height:100%;
+    border-spacing: 1px; 
+    background-color: black;
+
+}
+.c4 table tr{
+    width:100%;
+    height:33.33%;
+
+}
+.c4 table td{
+    width:33.33%;
+ 
+    background-color: white;
+    margin:0%;
+    padding:0%;
+}
+.c5{
+    height:10%;
+    width:20%;
+    margin-left:40%;
+    display:flex;
+    flex-direction:row;
+    gap:5%;
+}
+.c5_you{
+    display:flex;
+    flex-direction:row;
+    margin-left:45%;
+    margin-right:40%;
+    gap:5%;
+}
+.c5_2{
+    margin-top:10%;
+    color:green;
+    width:60%;
+    font-size: 200%;
+    display:flex;
+    justify-content: center;;
+}
+.c5_1{
+    width:40%;
+    margin-top:10%;
+}
+
+.c5_1 .icon4 {
+    height:70%;
+    width:100%;
+    color: green;
+}
+.circle{
+    background-image:url("./circle.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    
+}
+.wrong{
+    background-image: url("./wrong.jpg");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: center;    
+
+}
+@media only screen and (max-width:1000px){
+    .c1{
+        margin-left:0%;
+        margin-right:0%;
+        width:100%;
+    }
+    .c3_2{
+        margin-top:3%;
+        font-size:250%;
+    }
+}
