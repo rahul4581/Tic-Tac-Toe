@@ -1,0 +1,65 @@
+.menubar{
+    color:white;
+    width:25px;
+    height:25px;
+    position: absolute;
+    top:15px;
+    left:10px;
+}
+.menu-bar{
+    position:fixed;
+    top:0px;
+    left:-20%;
+    width:20%;
+    height:100%;
+    background-color: rgba(25, 25, 26, 0.893);
+    transition: left 0.5s ease;
+    z-index:1000;
+    transform:translateX(-100%);
+    display:flex;
+    flex-direction: column;
+    opacity:1;
+}
+.menu-bar.open{
+    left:0px;
+    transform:translateX(0);
+}
+.menu-bar.close{
+    transform:translateX(-20%)
+}
+.profile_photo{
+    border-radius:50%;
+    width:60%;
+    height:25%;
+    background-image: url("../images/ppic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:15%;
+    margin-top:5%;
+}
+.menubar1{
+    color:white;
+    margin-left:25%;
+}
+.menubar2{
+    width:10%;
+    height:10%;
+    margin-top:40%;
+    margin-left:90%;
+    background-color:white;
+}
+.menubar3{
+    position:relative;
+    margin-top:40%;
+}
+.menubar3 hr{
+    width:80%;
+    margin-left:10%;
+}
+.menubar3 a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    margin-left:20%;
+    position:relative;
+}
